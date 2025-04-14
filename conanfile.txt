@@ -1,0 +1,10 @@
+[requires]
+spdlog/1.13.0
+gtest/1.15.0
+
+[generators]
+BazelDeps
+BazelToolchain
+
+[layout]
+bazel_layout
