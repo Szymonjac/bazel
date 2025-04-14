@@ -1,0 +1,1 @@
+build --remote_cache=http://your.host:port
