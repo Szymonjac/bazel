@@ -5,3 +5,8 @@ cc_binary(
         "@spdlog//:spdlog",
     ],
 )
+
+config_setting(
+    name = "MOXPP_VERSION",
+    values = {"MOXPP_VERSION": "0.1"},
+)
